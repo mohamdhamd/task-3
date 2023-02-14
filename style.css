@@ -1,0 +1,277 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+    transition: .3s;
+}
+button:hover{
+    background: rgb(188, 188, 188);
+    cursor: pointer;
+    color: black;
+}
+.main{
+    background-size: cover;
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s;
+
+}
+.download{
+    width: 350px;
+    font-weight: 100;
+height:240px;
+border-radius: 10px;
+margin-left: 10px;
+background-color: rgba(0, 0, 0, 0.429);
+color: white;
+text-align: center;
+transition: .4s;
+}
+.download:hover{
+    background-color: black;
+}
+.download h3{
+    padding: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 100;
+
+}
+.download p{
+    padding: 20px;
+    margin: 10px;
+
+}
+.download button{
+    width: 290px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #4caf4f9f;
+    color: white;
+    transition: .3s;
+}
+.download:hover button{
+    background-color: #4caf4f;
+}
+.download button:hover{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    cursor: pointer;
+}
+.slide{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+.hidden-dow{
+    position: fixed;
+    width: 900px;
+    height: 350px;
+    background-color: white;
+    top: 15%;
+    left: 22%;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    
+    
+
+}
+.hidden-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.hidden-dow p{
+    margin: 20px 0 20px 0;
+}
+.hidden-dow input{
+    width: 850px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0 40px 0;
+    display: block;
+    border: 1px solid gray;
+
+}
+.hidden-dow .btn{
+    width: 850px;
+    height: 40px;
+    background-color:#f44336 ;
+}
+.hidden-dow .btn:hover{
+
+    background-color:rgb(188, 188, 188) ;
+}
+.sec-1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.fir{
+    width: 50%;
+
+}
+.sec-1 h2 , .sec-1 h3{
+    font-size: 55px;
+    font-weight: 200;
+    margin: 10px 0 10px 0;
+}
+.sec-1 h3{
+    color: #4caf4f;
+    font-size: 50px;
+}
+.sec-1 p{
+    font-size:17px ;
+    color: rgba(0, 0, 0, 0.708);
+
+}
+.sec-1 span{
+    font-size: 25px;
+}
+.sec-1 button{
+    width: 270px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(233, 233, 233);
+}
+.sec-3{
+    height: 100vh;
+    background-color: #616161;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.sec-3 .fa{
+    font-size: 80px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.icon{
+    margin: 20px;
+    flex:0 0 20%;
+    max-width: 20%;
+
+}
+.icon i{
+    margin-bottom: 20px;
+}
+.sec-4{
+    height: 110vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+
+}
+.sec-4 h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.fr-pre{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    transition: .5s;
+}
+.free ,.pre{
+    width: 49%;
+    border: 1px solid rgb(200, 200, 200);
+    height: 110%; 
+
+    
+}
+.free:hover ,.pre:hover{
+    box-shadow:  20px 20px 60px #8f8f8f,
+            -20px -20px 60px #ffffff;
+}
+.p-1 ,.p-2 ,.p-3{
+    width: 100%;
+    border-bottom: 1px rgb(182, 182, 182) solid;
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+
+
+
+}
+.p-1{
+    font-size: 30px;
+    height: 15%;
+    padding-top: 10px;
+    border: none;
+}
+.p-3{
+    font-size: 30px;
+    color: #616161;
+}
+.fr-pre button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border: 5px;
+}
+footer{
+    height: 20vh;display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+
+
+}
+footer .fa{
+    font-size: 1.5em;
+    margin: 10px;
+}
+footer .fa:hover{
+color: #616161;
+}
+.pow span a{
+    color: black;
+    transition: .3s;
+}
+.pow span a:hover{
+    color: #4caf4f;
+}
+
+
